@@ -14,7 +14,10 @@ spec:
     spec:
       containers:
         - name: demo-git
-          image: 'quay.io/pfan-gps/httpd:latest'
+          image: 'docker.io/busybox:latest'
+          command:
+          - sleep
+          - inf
           env:
           - name: TEST
             value: AAABBB
