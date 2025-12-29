@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: demo-git
-          image: 'image-registry.openshift-image-registry.svc:5000/pfan/demo-git@sha256:31e234666752b7db240f4d8e6f4190c28f4b0a7474a52274f22c1fd8d691a29c'
+          image: 'quay.io/pfan-gps/httpd:latest'
           env:
           - name: TEST
             value: AAABBB
