@@ -20,4 +20,4 @@ spec:
           - inf
           env:
           - name: TEST
-            value: AAABBB
+            value: ABC
